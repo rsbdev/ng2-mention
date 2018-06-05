@@ -17,11 +17,11 @@
       "dom"
     ],
     "paths": {
-      "rsb-mention": [
-        "dist/rsb-mention"
+      "lib": [
+        "dist/lib"
       ],
-      "rsb-mention/*": [
-        "dist/rsb-mention/*"
+      "lib/*": [
+        "dist/lib/*"
       ]
     }
   }

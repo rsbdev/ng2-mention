@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RsbMentionComponent } from './rsb-mention.component';
+import { LibComponent } from './lib.component';
 
-describe('RsbMentionComponent', () => {
-  let component: RsbMentionComponent;
-  let fixture: ComponentFixture<RsbMentionComponent>;
+describe('LibComponent', () => {
+  let component: LibComponent;
+  let fixture: ComponentFixture<LibComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RsbMentionComponent ]
+      declarations: [ LibComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RsbMentionComponent);
+    fixture = TestBed.createComponent(LibComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

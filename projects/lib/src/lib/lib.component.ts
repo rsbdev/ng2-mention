@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-rsb-mention',
+  selector: 'lib-lib',
   template: `
     <p>
-      rsb-mention works!
+      lib works!
     </p>
   `,
   styles: []
 })
-export class RsbMentionComponent implements OnInit {
+export class LibComponent implements OnInit {
 
   constructor() { }
 
